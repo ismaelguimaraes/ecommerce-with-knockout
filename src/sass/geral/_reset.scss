@@ -1,0 +1,42 @@
+/* ==========================================================================
+   Reset
+   ========================================================================== */
+
+html,
+body,
+main { min-height:100%; scroll-behavior: smooth; }
+
+a{
+  color: inherit;
+  &:hover,
+  &:active,
+  &:focus,
+  &:focus:hover { transition-duration: 0.1s; color: inherit; }
+  &:hover { text-decoration: inherit; color: inherit; }
+}
+
+img, iframe, object, video {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+form {
+  &:after,
+  &:before {
+    display: table;
+    content: " ";
+  }
+  &:after { clear: both; }
+}
+
+textarea {
+  max-width: 100%;
+  width: 100%;
+}
+
+b,
+strong { 
+  font-family: 'montserrat-bold', sans-serif;
+  font-weight: normal;
+}

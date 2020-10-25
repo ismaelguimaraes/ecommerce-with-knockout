@@ -1,0 +1,31 @@
+// Css raiz do projeto
+
+/*!
+ * E-commerce Pokemon
+ * Desenvolvido por PyxisWeb em: 25/10/2020
+ */
+ 
+ // Config
+ @import "config/_variaveis.scss";
+
+// Libs
+@import "../sassLibs/bootstrap/bootstrap.scss";
+@import "../sassLibs/fontAwesome/fontawesome.scss";
+@import "../sassLibs/fontAwesome/brands.scss";
+@import "../sassLibs/fontAwesome/regular.scss";
+@import "../sassLibs/fontAwesome/solid.scss";
+@import "../sassLibs/fontAwesome/v4-shims.scss";
+
+// Tipografia
+@import "_tipografia.scss";
+
+// Geral
+@import "geral/_medias.scss";
+@import "geral/_utilidades.scss";
+@import "geral/_reset.scss";
+@import "geral/_animations.scss";
+@import "geral/_geral.scss";
+
+// Componentes
+@import "./componentes/_header.scss";
+
